@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-14T22:34:34 EDT" name="Suite" finished-at="2022-09-14T22:34:42 EDT" duration-ms="8069">
+    <groups>
+    </groups>
+    <test started-at="2022-09-14T22:34:34 EDT" name="Test" finished-at="2022-09-14T22:34:42 EDT" duration-ms="8069">
+      <class name="chain.GetContact">
+        <test-method signature="getContact()[pri:0, instance:chain.GetContact@49798e84]" started-at="2022-09-14T22:34:38 EDT" name="getContact" finished-at="2022-09-14T22:34:40 EDT" depends-on-methods="chain.CreateContact.createContact" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContact -->
+        <test-method is-config="true" signature="after()[pri:0, instance:chain.GetContact@49798e84]" started-at="2022-09-14T22:34:40 EDT" name="after" finished-at="2022-09-14T22:34:40 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- chain.GetContact -->
+      <class name="chain.DeleteContact">
+        <test-method signature="deleteContact()[pri:0, instance:chain.DeleteContact@6ed06f69]" started-at="2022-09-14T22:34:40 EDT" name="deleteContact" finished-at="2022-09-14T22:34:41 EDT" depends-on-methods="chain.CreateContact.createContact" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method is-config="true" signature="after()[pri:0, instance:chain.DeleteContact@6ed06f69]" started-at="2022-09-14T22:34:41 EDT" name="after" finished-at="2022-09-14T22:34:41 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="validateDeletedContact()[pri:0, instance:chain.DeleteContact@6ed06f69]" started-at="2022-09-14T22:34:41 EDT" name="validateDeletedContact" finished-at="2022-09-14T22:34:42 EDT" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletedContact -->
+        <test-method is-config="true" signature="after()[pri:0, instance:chain.DeleteContact@6ed06f69]" started-at="2022-09-14T22:34:42 EDT" name="after" finished-at="2022-09-14T22:34:42 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- chain.DeleteContact -->
+      <class name="chain.UpdateContact">
+        <test-method signature="updateContact()[pri:0, instance:chain.UpdateContact@47e4d9d0]" started-at="2022-09-14T22:34:37 EDT" name="updateContact" finished-at="2022-09-14T22:34:38 EDT" depends-on-methods="chain.CreateContact.createContact" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContact -->
+        <test-method is-config="true" signature="after()[pri:0, instance:chain.UpdateContact@47e4d9d0]" started-at="2022-09-14T22:34:38 EDT" name="after" finished-at="2022-09-14T22:34:38 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- chain.UpdateContact -->
+      <class name="chain.CreateContact">
+        <test-method is-config="true" signature="before()[pri:0, instance:chain.CreateContact@2a22ad2b]" started-at="2022-09-14T22:34:18 EDT" name="before" finished-at="2022-09-14T22:34:34 EDT" duration-ms="16618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="createContact()[pri:0, instance:chain.CreateContact@2a22ad2b]" started-at="2022-09-14T22:34:34 EDT" name="createContact" finished-at="2022-09-14T22:34:37 EDT" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="after()[pri:0, instance:chain.CreateContact@2a22ad2b]" started-at="2022-09-14T22:34:37 EDT" name="after" finished-at="2022-09-14T22:34:37 EDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- chain.CreateContact -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
